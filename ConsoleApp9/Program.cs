@@ -6,7 +6,10 @@ namespace ConsoleApp9
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String name = "Yuxuan Cen";
+            Console.WriteLine(name);
+            Console.WriteLine("press any key to exit..");
+            Console.ReadKey(true);
         }
     }
 }
